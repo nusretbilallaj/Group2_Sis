@@ -1,0 +1,8 @@
+﻿@model List<Studenti>
+
+<h1>Studentet do te vendosen si ne vijim:</h1>
+
+@foreach (Studenti st in Model)
+{
+    <p>@st.Emri @st.Mbiemri</p>
+}
